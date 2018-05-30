@@ -9,6 +9,7 @@ class App extends Component {
           <BurgerBuilder />
         </Layout>
       </div>
+      <div>Sample Text</div>
     );
   }
 }
