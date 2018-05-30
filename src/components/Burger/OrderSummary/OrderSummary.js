@@ -4,8 +4,8 @@ import Aux from '../../../hoc/Aux/Aux';
 import Button from '../../UI/Button/Button';
 
 
-class orderSummary extends Component {
-
+class OrderSummary extends Component {
+    //This could be a functional component, doesn't have to be a class
     componentWillUpdate() {
         console.log('[OrderSummary] willUpdate')
     }
@@ -39,4 +39,4 @@ class orderSummary extends Component {
     }
 }
    
-export default orderSummary;
+export default OrderSummary;
